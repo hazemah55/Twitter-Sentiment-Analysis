@@ -58,6 +58,22 @@ Cross-validation and test metrics were calculated on different data splits and s
 - Perform additional error analysis.
 - Build a Streamlit application for interactive sentiment prediction.
 
+
+## Dataset Source
+
+This project uses the **Tweet Sentiment Extraction** dataset from Kaggle.
+
+The dataset contains 27,481 tweets with four columns: `textID`, `text`, `selected_text`, and `sentiment`.
+
+The sentiment labels are Positive, Negative, and Neutral.
+
+**Dataset:** [Tweet Sentiment Extraction — Kaggle](https://www.kaggle.com/competitions/tweet-sentiment-extraction/data)
+
+This project uses the tweet text and sentiment labels for multiclass sentiment classification, rather than the original competition's phrase-extraction task.
+
+To reproduce the project, download the training dataset and update the CSV file path in the notebook.
+
+
 ## Author
 
 **Hazem Ahmed Wageh**
